@@ -279,6 +279,9 @@ nav {
 .mobile-nav-toggle i {
   color: #fff;
 }
+.mobile-nav-toggle .material-symbols-outlined{
+  color: #fff;
+}
 .mobile-nav {
   position: fixed;
   top: 55px;
@@ -495,7 +498,7 @@ button:nth-child(2) {
   color: #f3f3f3;
 }
 .bar-info {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .skills .title h1 {
   font-family: Candal, sans-serif;
@@ -503,7 +506,7 @@ button:nth-child(2) {
   font-size: 2.4rem;
 }
 .bars {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #one {
   height: 10px;
@@ -896,6 +899,13 @@ ion-icon {
   .col-8 {
     flex-basis: 90%;
   }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .title,
@@ -909,6 +919,13 @@ ion-icon {
   .footing,
   .initial-6 {
     font-size: 12px;
+  }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media only screen and (max-width: 885px) {
@@ -972,10 +989,27 @@ ion-icon {
   .menu {
     display: inline-block;
   }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .mobile-nav  .material-symbols-outlined{
+    color: #000;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media only screen and (max-width: 810px) {
   .arrow {
     right: 30px !important;
+  }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1063,6 +1097,13 @@ ion-icon {
   .menu {
     display: inline-block;
   }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media only screen and (max-width: 450px) {
   #e {
@@ -1081,6 +1122,13 @@ ion-icon {
     margin-top: 20px;
     margin-right: 20px;
   }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media only screen and (max-width: 360px) {
   .arrow {
@@ -1092,6 +1140,13 @@ ion-icon {
   }
   .navi {
     padding-left: 0 !important;
+  }
+  .mobile-nav-toggle .material-symbols-outlined{
+    color: #fff;
+  }
+  .row9{
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 p {
