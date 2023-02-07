@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Niconne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Candal&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
   background: #161853 !important;
   overflow-x: hidden;
@@ -73,9 +75,10 @@ a {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
-  font-family: Meddon, cursive;
+  font-family: 'Open Sans', sans-serif !important;
   font-size: 20px !important;
 }
+
 #header .logo:hover {
   text-decoration: underline !important;
 }
