@@ -38,7 +38,7 @@ class About(models.Model):
 
 class Projects(models.Model):
     title = models.CharField(max_length=50, blank=True, null=True)
-    skill = models.TextField(max_length=230, blank=True, null=True)
+    skill = models.TextField(max_length=500, blank=True, null=True)
     link = models.URLField(blank=True, null=True)
     image = models.URLField(blank=True, null=True)
 
