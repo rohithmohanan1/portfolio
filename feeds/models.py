@@ -42,6 +42,8 @@ class Projects(models.Model):
     link = models.URLField(blank=True, null=True)
     image = models.URLField(blank=True, null=True)
 
+    img = models.ImageField(upload_to = 'image/')
+
     def __str__(self):
         return self.title
 
